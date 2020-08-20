@@ -1,10 +1,11 @@
-.body {
+:root .body {
   background-color: #e5e5e5;
   color: #212121;
 }
-.logo {
+.ul {
+  list-style: none;
 }
-.logo-main {
+.logo .logo-main {
   color: #2196f3;
 }
 .logo-part {
