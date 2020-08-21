@@ -8,33 +8,85 @@
   --section-team-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
   --white: #ffffff;
+  --button-bck-color: #f5f4fa;
 }
 .page {
-  color: var(primery-text-colour);
+  color: var(--primery-text-colour);
   background-color: var(--main-bg-color);
 }
-.ul {
+.list {
   list-style: none;
 }
+
 .logo .logo-main {
   color: var(--acent);
 }
 .logo-part {
   color: var(--primery-text-colour);
 }
-.logo:hover {
-  color: var(--acent);
-}
+.logo:hover,
 .logo:focus {
   color: var(--acent);
 }
-.site-nav.link {
-  color: var(--primery-text-colour);
-}
-.site-nav.link:hover,
-link:focus {
+.logo-part:hover,
+.logo-part:focus {
   color: var(--acent);
 }
-.nav-auth {
+/* site navigation*/
+.site-nav .link {
+  color: var(--primery-text-colour);
+}
+.site-nav .link:hover {
+  color: var(--acent);
+}
+.site-nav .link:focus {
+  color: var(--acent);
+}
+.nav-auth .link {
   color: var(--text-color);
 }
+.nav-auth .link:hover {
+  color: var(--acent);
+}
+.nav-auth .link:focus {
+  color: var(--acent);
+}
+
+/* button*/
+.button {
+  color: var(--primery-text-colour);
+  background-color: var(--button-bck-color);
+}
+.button.primary {
+  color: var(--primery-text-colour);
+  background-color: var(--button-bck-color);
+}
+.button.secondary {
+  color: var(--white);
+  background-color: var(--acent);
+}
+.button.primary:focus {
+  color: var(--white);
+  background-color: var(--acent);
+}
+
+/* Герой*/
+.hero {
+  background-color: var(--footer-bg-color);
+}
+.hero-title {
+  color: var(--white);
+}
+.hero.button.secondary {
+  color: var(--white);
+  background-color: var(--acent);
+}
+.hero .button.secondary:hover {
+  color: var(--acent);
+  background-color: var(--white);
+}
+.hero .button.secondary:focus {
+  color: var(--acent);
+  background-color: var(--white);
+}
+/*features*/
