@@ -130,7 +130,7 @@
   text-transform: uppercase;
   color: var(--white);
 }
-.hero. button.secondary {
+.hero.button.secondary {
   color: var(--white);
   background-color: var(--acent);
   text-decoration: none;
