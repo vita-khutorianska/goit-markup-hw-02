@@ -10,15 +10,18 @@
   --white: #ffffff;
   --button-bck-color: #f5f4fa;
 }
-.page {
+body {
   color: var(--primery-text-colour);
   background-color: var(--main-bg-color);
-}
-.list {
   list-style: none;
+  text-decoration: none;
 }
 
-.logo .logo-main {
+/*header*/
+.header {
+  background-color: var(--white);
+}
+.logo-main {
   color: var(--acent);
 }
 .logo-part {
@@ -61,13 +64,18 @@
   color: var(--primery-text-colour);
   background-color: var(--button-bck-color);
 }
+
 .button.secondary {
   color: var(--white);
   background-color: var(--acent);
 }
-.button.primary:focus {
+.button.primary:focus,
+.button.primary:hover {
   color: var(--white);
   background-color: var(--acent);
+}
+.card {
+  background-color: var(--white);
 }
 
 /* Герой*/
@@ -85,8 +93,31 @@
   color: var(--acent);
   background-color: var(--white);
 }
-.hero .button.secondary:focus {
-  color: var(--acent);
-  background-color: var(--white);
-}
+
 /*features*/
+
+.title {
+}
+.subtitle {
+}
+.text {
+  color: var(--text-color);
+}
+.section-team {
+  background-color: var(--section-team-bg-color);
+}
+/*futter*/
+.footer {
+  color: var(--white);
+  background-color: var(--footer-bg-color);
+}
+.logo {
+  color: var(--white);
+}
+.adress-link {
+  color: var(--footer-tel-mail-colour);
+}
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--acent);
+}

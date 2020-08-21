@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>main page</title>
+    <link rel="stylesheet" href="font-style" />
+    <link rel="stylesheet" href="normalize" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!--- шапка-->
-    <header>
+    <header class="header">
       <a href="./index.html" class="logo">
         <span class="logo-main">Web</span><span class="logo-part">Studio</span>
       </a>
@@ -41,8 +43,8 @@
       </section>
 
       <!--- Особенности работы-->
-      <section class="section list">
-        <h2 class="section-title">Преимущества</h2>
+      <section class="section">
+        <h2 class="title">Преимущества</h2>
         <ul class="feature-list">
           <li>
             <h3 class="subtitle">Внимание к деталям</h3>
@@ -75,7 +77,7 @@
         </ul>
       </section>
       <!---Чем занимаются-->
-      <section class="section list">
+      <section class="section">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul>
           <li>
@@ -92,25 +94,25 @@
         </ul>
       </section>
       <!--- team-->
-      <section class="section list">
-        <h2 class="section-title">Наша команда</h2>
+      <section class="section section-team">
+        <h2 class="title">Наша команда</h2>
         <ul>
-          <li>
+          <li class="card">
             <img src="./img/img.jpg" alt="фото игорь демьяненко" width="270" />
             <h3 class="subtitle">Игорь Демьяненко</h3>
             <p class="text">Product Designer</p>
           </li>
-          <li>
+          <li class="card">
             <img src="./img/img-4.jpg" alt="фотоo Ольга Репина" width="270" />
             <h3 class="subtitle">Ольга Репина</h3>
             <p class="text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="card">
             <img src="./img/img-5.jpg" alt="фото Николай Тарасов" width="270" />
             <h3 class="subtitle">Николай Тарасов</h3>
             <p class="text">Marketing</p>
           </li>
-          <li>
+          <li class="card">
             <img src="./img/img-6.jpg" alt="фото Михаил Ермаков" width="270" />
             <h3 class="subtitle">Михаил Ермаков</h3>
             <p class="text">UI Designer</p>
@@ -119,12 +121,19 @@
       </section>
     </main>
     <!--- футер-->
-    <footer>
-      <a href="WebStudio">WebStudio </a>
-      <address>
+    <footer class="footer">
+      <a href="WebStudio" class="logo"
+        ><span class="logo-main">Web</span>Studio</a
+      >
+      <address class="adress">
         г. Киев, пр-т Леси Украинки, 26 <br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
-        <a href="tel:++38-096-111-11-11">+38-096-111-11-11</a>
+        <a href="mailto:info@devstudio.com" class="adress-link"
+          >info@devstudio.com</a
+        >
+        <br />
+        <a href="tel:++38-096-111-11-11" class="adress-link"
+          >+38-096-111-11-11</a
+        >
       </address>
     </footer>
   </body>
